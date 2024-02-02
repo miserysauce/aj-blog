@@ -1,0 +1,18 @@
+{
+    "blogs":[
+        {
+            "title": "My First Blog",
+            "body": "I am learning react, and I like it more than angular so far",
+            "author": "AJT",
+            "id": 1
+
+        },
+        {
+            "title": "What's Next",
+            "body": "I will make this into a full-stack web app.",
+            "author": "AJT",
+            "id": 2
+        }
+    ]
+
+}

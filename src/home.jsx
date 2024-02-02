@@ -1,7 +1,22 @@
+ import { useEffect, useState } from "react";
+import BlogList from "./BlogList";
+
 const Home = () => {
+    const [blogs, setBlogs]= useState(null);
+
+    useEffect(() => {
+        fetch('http://localhost:8000/blogs')
+            .then(res =>{
+                return res.json();
+            })
+            .then((data)=>{
+                setBlogs(data);
+            })
+    },[]);
     return ( 
     <div className="home">
-        <h2>Homepage</h2>
+        {blogs && <BlogList blogs={blogs} title="All Blogs" />}
+
     </div> 
     );
 }
