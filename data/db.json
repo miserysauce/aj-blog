@@ -1,18 +1,28 @@
 {
-    "blogs":[
-        {
-            "title": "My First Blog",
-            "body": "I am learning react, and I like it more than angular so far",
-            "author": "AJT",
-            "id": 1
-
-        },
-        {
-            "title": "What's Next",
-            "body": "I will make this into a full-stack web app.",
-            "author": "AJT",
-            "id": 2
-        }
-    ]
-
+  "blogs": [
+    {
+      "title": "My First Blog",
+      "body": "I am learning react, and I like it more than angular so far",
+      "author": "AJT",
+      "id": "1"
+    },
+    {
+      "title": "What's Next",
+      "body": "I will make this into a full-stack web app.",
+      "author": "AJT",
+      "id": "2"
+    },
+    {
+      "id": "f48c",
+      "title": "adf",
+      "body": "asdf",
+      "author": "AJ"
+    },
+    {
+      "id": "91c5",
+      "title": "New Blog",
+      "body": "Something is happening",
+      "author": "AJ"
+    }
+  ]
 }
